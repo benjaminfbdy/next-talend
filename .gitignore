@@ -1,0 +1,11 @@
+.env
+*.log
+__pycache__/
+.venv/
+data/generated/
+
+# Workspace Talend : on versionne le projet (jobs, contextes, routines), pas l'?tat de l'IDE ni les builds
+talend-workspace/.metadata/
+talend-workspace/.JETEmitters/
+talend-workspace/.Java/
+talend-workspace/**/temp/
