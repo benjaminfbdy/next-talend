@@ -23,6 +23,7 @@ flowchart LR
 ## Avancement
 
 - [x] **0. Environnement** — JDK 21, PostgreSQL 17, Talaxie 8.9.0 ([détails](docs/environnement.md))
+- [x] **0 bis. Onboarding Talend / ETL** — [tutoriel](docs/onboarding_talend.md) et exercice 0 (lecture de `clients.csv`)
 - [x] **1. Données** — générateur Python avec défauts volontaires et oracle de tests
 - [ ] 2. Staging — CSV → tables brutes PostgreSQL
 - [ ] 3. Contrôles et rejets
@@ -82,6 +83,7 @@ Normalisation : `trim` de toutes les colonnes avant tout contrôle ; une valeur 
 ```
 data/generate_dataset.py     générateur du jeu fictif + oracle
 docs/environnement.md        installation et versions
+docs/onboarding_talend.md    onboarding Talend / ETL, bonnes pratiques, questions d'entretien
 scripts/launch-studio.ps1    lance Talaxie sur talend-workspace/
 talend-workspace/            projet Talend (jobs versionnés)
 ```
